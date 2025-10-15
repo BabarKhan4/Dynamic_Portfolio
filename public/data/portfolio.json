@@ -4,237 +4,109 @@
   "message": "Portfolio data loaded successfully",
   "data": {
     "personalInfo": {
-      "name": "Tayyub Yaqoob",
-      "title": "Digital Analyst & AI/ML Solutions Engineer",
-      "summary": "Digital Analyst with 5+ years experience delivering AI/ML modules, analytics automation, and cloud data products. I build forecasting engines, anomaly detection, sentiment analysis, MMM, and robust GA4–BigQuery pipelines. Freelance data consultant and Cointelegraph contributor.",
+      "name": "Babar Yaqoob",
+      "title": "AI Developer & Data Analyst",
+      "summary": "Master’s (M2) student in Artificial Intelligence at ECE Paris with hands-on data analytics experience (SQL, Power BI, Python) and growing focus on LLM apps and automations. Built dashboards, ETL workflows, and ML-ready datasets; deploying full-stack AI tools and writing research-backed AI/crypto explainers.",
       "image": "/assets/default-avatar.png",
-      "phone": "",
-      "email": "tayyubyaqoob@gmail.com",
-      "location": "Stirling, Scotland, UK"
+      "phone": "+33 7 66 71 24 12",
+      "email": "babaryaqoob.1@icloud.com",
+      "location": "Livry-Gargan, France"
     },
     "experience": [
       {
-        "company": "8 Million Stories (8MS)",
-        "title": "Digital Analyst",
-        "dates": "Nov 2022 – Present",
-        "description": "Lead AI/ML and analytics modules across organic and paid teams. Own data pipelines, forecasting, MMM, anomaly detection, audits, and automation.",
+        "company": "QuipSol Technologies Pvt.",
+        "title": "Data Analyst",
+        "dates": "12 May 2022 – 07 May 2023",
+        "description": "Analytics pipelines and BI dashboards; ETL, QA, and automation for reporting.",
         "achievements": [
-          "Built 6+ Codex modules (forecasting, query forecast, sitemap similarity, anomaly detection, sentiment analysis, synergy).",
-          "GA4 + BigQuery pipelines, Advanced Consent Mode V2, GTM regex tables, and automated reporting at scale.",
-          "Delivered data retainers and insights for brands incl. Neilson Holidays, Clogau, Tesco Bank, Royal London."
-        ]
-      },
-      {
-        "company": "Freelance",
-        "title": "Data & AI Consultant",
-        "dates": "2019 – Present",
-        "description": "Consulting on GA4/GTM/BigQuery, AWS & Vertex AI workloads, dashboards, and automation.",
-        "achievements": [
-          "Scaled workloads via AWS Lambda/Fargate/EC2; containerized jobs per client.",
-          "Automated Looker dashboards and MMM pipelines with BigQuery."
-        ]
-      },
-      {
-        "company": "Cointelegraph",
-        "title": "AI/ML Content Creator (as Callum Reid)",
-        "dates": "2023 – Present",
-        "description": "Research-backed articles on AI in crypto and DeFi.",
-        "achievements": [
-          "Published 35+ articles on AI, ML and Blockchain",
-          "How-to guides and deep dives aligned to editorial & SEO standards."
+          "Automated SQL-based workflows and reports (≈30% less manual work).",
+          "Performed data cleaning, validation, and ETL for BI dashboards.",
+          "Maintained structured datasets to support ML model testing.",
+          "Tools: SQL, Excel, Power BI, Python (pandas), Microsoft 365."
         ]
       }
     ],
     "education": [
       {
-    "institution": "University of Stirling",
-    "degree": "MSc Computing Science",
-    "dates": "2018 - 2019",
-    "location": "Stirling, Scotland, UK"
-
-    },
+        "institution": "École Centrale d’Électronique (ECE Paris)",
+        "degree": "Master of Science (M2) in Artificial Intelligence",
+        "dates": "22 Sep 2025 – Present",
+        "location": "Paris, France"
+      },
       {
-    "institution": "COMSATS University Islamabad",
-    "degree": "BS in Software Engineering",
-    "dates": "2013 - 2017",
-    "location": "Islamabad, Pakistan"
-
-
+        "institution": "Iqra University, Islamabad",
+        "degree": "Bachelors of Science in Computer Science",
+        "dates": "07 Sep 2020 – 14 Sep 2024",
+        "location": "Islamabad, Pakistan"
       }
     ],
     "projects": [
       {
-        "title": "Codex – Forecasting Engine (GSC/GA4)",
-        "description": "Weekly automated forecasts (queries, sessions) with backtests and alerting.",
-        "technologies": ["Python", "BigQuery", "Vertex AI", "Vercel"],
-        "github": "",
+        "title": "Dynamic Portfolio Website",
+        "description": "Portfolio built with Next.js + Framer Motion, powered by dynamic JSON data and deployed on Vercel.",
+        "technologies": ["Next.js", "Framer Motion", "TailwindCSS", "Vercel"],
+        "github": "https://github.com/BabarKhan4/Dynamic_Portfolio",
         "demo": "",
         "featured": true
       },
       {
-        "title": "Codex – Anomaly Detection & Alerts",
-        "description": "Precision/recall-tuned anomaly detection on clicks/sessions with notifications.",
-        "technologies": ["Python", "BigQuery", "Cloud Functions"],
-        "github": "",
+        "title": "Outworld Dungeons (2.5D Sci-Fi Platformer)",
+        "description": "Solo Unity + C# platformer with 2D gameplay, physics puzzles, and AI-driven enemies; custom assets, UI, and audio.",
+        "technologies": ["Unity", "C#", "Git", "Blender", "Photoshop"],
+        "github": "https://github.com/BabarKhan4/OutworldDungeon",
         "demo": "",
         "featured": true
-      },
-      {
-        "title": "Codex – Sitemap Similarity",
-        "description": "Compare 50–100 sites, clean HTML, compute embeddings, output similarity scores.",
-        "technologies": ["Python", "SentenceTransformers", "AWS", "BigQuery"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "Codex – Sentiment & Mentions",
-        "description": "Weekly sentiment across sources; client-specific negative keywords; S3 outputs.",
-        "technologies": ["Python", "VADER", "AWS Lambda", "S3"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "Synergy (Paid × Organic)",
-        "description": "Attribution-aware analysis measuring paid/organic overlap and cannibalization.",
-        "technologies": ["Python", "BigQuery", "Pandas"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "Meridian – MMM (Vertex AI)",
-        "description": "MMM light for budget optimization with holdout validation and simulations.",
-        "technologies": ["Vertex AI", "BigQuery", "Python"],
-        "github": "",
-        "demo": "",
-        "featured": true
-      },
-      {
-        "title": "Neilson Holidays – Data Retainer",
-        "description": "Forecasting bookings/traffic, anomaly detection, GA4 pipelines and dashboards.",
-        "technologies": ["GA4", "BigQuery", "Python", "Looker Studio"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "Clogau & Clogau Outlet – CRM × GA4",
-        "description": "Matched enquiries to bookings; automated reporting; Advanced Consent Mode V2.",
-        "technologies": ["GA4", "BigQuery", "CRM API", "Supermetrics"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "Rivet Education – Data Retainer",
-        "description": "Forecasting, sentiment dashboards, and sector insights.",
-        "technologies": ["Python", "BigQuery", "AWS"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "Tesco Bank – GA4 Retainer",
-        "description": "GA4 audits, GTM automation, anomaly detection, MMM forecasting.",
-        "technologies": ["GA4", "BigQuery", "Python"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "Royal London – Insights Retainer",
-        "description": "Pipelines for anomaly detection and query forecasting, GA4 event audits.",
-        "technologies": ["Python", "Vertex AI", "BigQuery"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "Stablecoin Depegging Study (2023–2025)",
-        "description": "CoinGecko data on USDT/USDC/DAI; depeg windows, liquidity and market cap dynamics.",
-        "technologies": ["CoinGecko API", "Python", "Pandas"],
-        "github": "",
-        "demo": "",
-        "featured": true
-      },
-      {
-        "title": "Looker Forecast vs Actuals",
-        "description": "Daily actuals vs projections for consumer/adviser/red routes; variance tracking.",
-        "technologies": ["BigQuery", "Looker Studio", "Python"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "GA4 Superior Audit Template",
-        "description": "Audit framework: consent, PII, attribution, broken tags, custom events, BQ links.",
-        "technologies": ["GA4", "GTM", "BigQuery"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "SaaS Experiments",
-        "description": "CV builder, AI tools aggregator, free-online-games portal with affiliate flows.",
-        "technologies": ["React", "Next.js", "Vercel", "Stripe"],
-        "github": "",
-        "demo": "",
-        "featured": false
-      },
-      {
-        "title": "Investment & FIRE Plan",
-        "description": "PSX: EFERT, MIIETF, MZNPETF, MEBL, MARI, POL, NML; dividend reinvestment and index strategy.",
-        "technologies": ["Financial Modeling", "PSX", "Index Funds"],
-        "github": "",
-        "demo": "",
-        "featured": false
       }
     ],
     "skills": [
       "Python",
-      "BigQuery",
-      "Vertex AI",
-      "AWS Lambda & Fargate",
-      "GA4 & GTM",
       "SQL",
-      "Looker Studio",
-      "Forecasting",
-      "Anomaly Detection",
-      "Automation",
-      "MMM Modeling",
-      "Crypto & DeFi Research",
-      "Technical Writing"
+      "MySQL",
+      "Power BI",
+      "Pandas",
+      "ETL",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch",
+      "Azure",
+      "Google Colab",
+      "Jupyter Notebook",
+      "Git",
+      "API Integration",
+      "Generative AI",
+      "Unity",
+      "WordPress",
+      "SEO",
+      "Editorial Content"
     ],
     "socialLinks": {
-      "github": "https://github.com/tayyub-ai",
-      "linkedin": "https://www.linkedin.com/in/tayyubyaqoob",
+      "github": "https://github.com/BabarKhan4",
+      "linkedin": "https://www.linkedin.com/in/babar-yaqoob1/",
       "twitter": "",
-      "website": "https://www.tayyubyaqoob.com/"
+      "website": "https://babaryaqoob.vercel.app"
     },
-    "resumeUrl": "/resume/resume.pdf",
+    "resumeUrl": "/resume/Update.pdf",
     "insights": {
       "mostUsedLanguage": "Python",
-      "preferredStack": "AI/ML + Cloud",
-      "learningFocus": "Health data science and NHS digital tools",
-      "careerTrajectory": "Evolving from marketing analytics to clinical/health data AI."
+      "preferredStack": "AI + Data + Cloud",
+      "learningFocus": "Generative AI, SpaCy NLP, and cloud deployment (Azure/AWS)",
+      "careerTrajectory": "From analytics and AI/crypto research into hands-on AI engineering and automations."
     },
     "techStack": [
       "Python",
-      "BigQuery",
-      "Vertex AI",
-      "AWS",
-      "GA4 & GTM",
       "React",
-      "Vercel"
+      "Next.js",
+      "Vercel",
+      "OpenAI API",
+      "n8n",
+      "Azure"
     ],
     "githubStats": {
-      "totalPublicRepos": 12,
-      "totalStars": 80,
-      "totalForks": 20,
-      "totalCommits": 1200,
-      "featuredRepos": 5
+      "totalPublicRepos": 10,
+      "totalStars": 10,
+      "totalForks": 3,
+      "totalCommits": 300,
+      "featuredRepos": 3
     }
   }
 }

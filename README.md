@@ -14,9 +14,7 @@ LiveInsight comes with **3 distinct themes** you can switch between instantly wi
 <details open>
 <summary><strong>CyberPunk Tech (Template 1)</strong></summary>
 </br>
-<p align="center">
-    <img src="./assets/portfolio-preview-1.png" alt="Modern Professional Template" width="90%">
-</p>
+
 A bold and futuristic design featuring neon highlights, custom animations, and a tech-inspired layout. Perfect for developers who want to make a strong visual impression while showcasing their cutting-edge skills and projects.
 </details>
 </br>
